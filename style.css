@@ -1,0 +1,37 @@
+div {
+    width: 900px;
+    height: 600px;
+}
+
+div div {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid;
+    float: left;
+}
+
+header
+{
+	text-align:center;
+	padding:5px;
+	margin:10px auto;
+	height:180px;
+	width:100%;
+	background-color:#eeeeee;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li {
+	display:inline;
+	
+}
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
